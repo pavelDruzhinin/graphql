@@ -1,0 +1,439 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vs": true,
+        "**/obj": true,
+        "**/.idea": true,
+        "**/bin": true,
+        "**/bower_components": true,
+        "**/node_modules": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "vetur.format.options.tabSize": 4,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag.localname.cs",
+                "settings": {
+                    "foreground": "#bebebe"
+                }
+            },
+            {
+                "scope": "comment.block.documentation.cs",
+                "settings": {
+                    "foreground": "#54be41",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "regions.attribute.cs.extensions",
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.variable.property.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.type.type-parameter.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.variable.parameter.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.variable.field.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.type.alias.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.type.namespace.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.variable.local.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "variable.other.object.property.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "variable.other.object.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "keyword.control.flow.return.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.function.cs",
+                "settings": {
+                    "foreground": "#d7d7d7",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.definition.typeparameters.begin.cs",
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "punctuation.parenthesis.open.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.parenthesis.close.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.curlybrace.open.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.curlybrace.close.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.separator.colon.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.terminator.statement.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.squarebracket.open.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.squarebracket.close.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "punctuation.definition.typeparameters.end.cs",
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.operator.comparison.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "keyword.operator.logical.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "keyword.operator.assignment.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "keyword.operator.arrow.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "storage.type.cs",
+                "settings": {
+                    "foreground": "#4ec8af",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.type.class.cs",
+                "settings": {
+                    "foreground": "#4ec8af",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "support.type.unity.UnityEditor.cs.extensions",
+                "settings": {
+                    "foreground": "#4ec8af",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.new.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "storage.modifier.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.class.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.namespace.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.default.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.get.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.set.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.type.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.control.conditional.if.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.control.conditional.else.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.var.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.base.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.using.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.await.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.language.null.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.double.cs",
+                "settings": {
+                    "foreground": "#cf9881",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.loop.foreach.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.loop.in.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.loop.while.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.try.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.try.catch.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.flow.throw.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.default.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.сontrol.flow.continue.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.typeof.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.interface.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.enum.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.other.this.cs",
+                "settings": {
+                    "foreground": "#5497cb",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.type.interface.cs",
+                "settings": {
+                    "foreground": "#b3d19f",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.variable.enum-member.cs",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "entity.name.type.enum.cs",
+                "settings": {
+                    "foreground": "#b3d19f",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+}
